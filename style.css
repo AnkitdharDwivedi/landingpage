@@ -1,0 +1,127 @@
+/* Reset some default styles for consistent rendering */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and background */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styles */
+  .about {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+  }
+  
+  .services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    display: block;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contactForm button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
